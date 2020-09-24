@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="QUOTA" type="flexi">
+    <DisplayName>QUOTA</DisplayName>
+    <Properties/>
+    <Identifier ref="client_id"/>
+    <Allow count="200" countRef="xyz.quota.limit"/>
+    <Interval ref="xyz.quota.interval">1</Interval>
+    <TimeUnit ref="xyz.quota.timeunit">hour</TimeUnit>
+    <Distributed>true</Distributed>
+    <Synchronous>true</Synchronous>
+</Quota>

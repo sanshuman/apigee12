@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="CALL-APIKEY-SECURITY" version="SHA-512:b8ffe25140702e2d54ea3c772c59304ccea2cfe76c6922592620a07be568981de002abe0ad7d4b5815a53937596b75746fcfbacad373c219c0dc5ed0d518079b"/>
+        <VersionInfo resourceName="CALL-BYPASS-SECURITY" version="SHA-512:412148349f3d4b7c7593f57d906b5b87eeead1478c4ee56edbbb4278055b3ad88529b304ffa0f94563c1a18b4cb5bb05f1ccdfb687edc78c9db6789609455e1a"/>
+        <VersionInfo resourceName="CALL-OAUTH-v20-SECURITY" version="SHA-512:1255f00399cb850fcc4d0ba7dc064a6b7d1a57bab9a5a40346be57635402f8cd96f544b9b7d858d8b191af65158499cd7082154dbc28af7425fbc17c4d01a967"/>
+        <VersionInfo resourceName="INVALID-SECURITY" version="SHA-512:9a9441daf6a03e954c7a6bdb07d42a8fde920ef51813b1baa89c708277b05bfcdeb20e792f383ccda7aa99b9e9e7bcb3eda1c425dc1c68eef471937b75660009"/>
+        <VersionInfo resourceName="SET-SECURITY-FLOW-VARIABLE" version="SHA-512:d245d96424bfcb12f903c64fb87224c0602ae40dfb37929d6fe4268f78a6ff470bbd065b59b91aef0733ae72b1a1b404c0f6b9f1b1b928b76dc1b0d522daf4b5"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources/>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:aea2fb1a2116ad2e92666c28195b4aa82270f9328dfeb00af842168d5e5994abe14446d80ed589c6a6995d9615dc5d3919881a86df9067f2cd98e1f200e4706e"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

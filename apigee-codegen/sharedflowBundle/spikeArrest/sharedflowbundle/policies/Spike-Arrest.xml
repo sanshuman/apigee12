@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SpikeArrest async="false" continueOnError="false" enabled="true" name="Spike-Arrest">
+    <DisplayName>CALL SPIKE ARREST</DisplayName>
+    <Properties/>
+    <Rate ref="xyz.API.Config.Spike"/>
+</SpikeArrest>

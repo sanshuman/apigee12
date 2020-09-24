@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="1" name="SF_EVALUATE_MAXIMUM_MESSAGE_SIZE_V1">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1581022996245</CreatedAt>
+    <CreatedBy>homerj@google.com</CreatedBy>
+    <Description>Evaluate the maximum message size allowed</Description>
+    <DisplayName>SF_EVALUATE_MAXIMUM_MESSAGE_SIZE_V1</DisplayName>
+    <LastModifiedAt>1581362477125</LastModifiedAt>
+    <LastModifiedBy>bdraven@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:0c0807b69b7f71bac64f3f3217dfd70dfaf380601e84aa9f702231f7a64a40ddd729104d9b34395ff381baf16f33b304601b796f30b91f8dfd64ae8a9b74bc2b</ManifestVersion>
+    <Policies>
+        <Policy>CALCULATE-MESSAGE-SIZE</Policy>
+        <Policy>EXCEEDED-MAXIMUM-MESSAGE-SIZE</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://Calculate_Message_Size.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

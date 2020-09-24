@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="MISSING-ENVIRONMENT-CONFIGURATION">
+    <DisplayName>MISSING ENVIRONMENT CONFIGURATION</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <StatusCode>404</StatusCode>
+            <ReasonPhrase>Server Error</ReasonPhrase>
+            <Payload contentType="text/xml">
+                <root>Missing Environment Configuration</root>
+            </Payload>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

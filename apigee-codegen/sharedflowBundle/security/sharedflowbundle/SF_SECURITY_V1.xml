@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="1" name="SF_SECURITY_V1">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1581023864402</CreatedAt>
+    <CreatedBy>homerj@google.com</CreatedBy>
+    <Description>Handle Multiple Forms of Security</Description>
+    <DisplayName>SF_SECURITY_V1</DisplayName>
+    <LastModifiedAt>1581362389527</LastModifiedAt>
+    <LastModifiedBy>bdraven@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:842f2d0e0f6f2245614bcba0c0357b0bab32af1d77bf921dced1932c6a47c145fd848d20844d9a9a993d7665062b5b8f4bb6175ab8e22ae8bbc19fc1504f560b</ManifestVersion>
+    <Policies>
+        <Policy>CALL-APIKEY-SECURITY</Policy>
+        <Policy>CALL-BYPASS-SECURITY</Policy>
+        <Policy>CALL-OAUTH-v20-SECURITY</Policy>
+        <Policy>INVALID-SECURITY</Policy>
+        <Policy>SET-SECURITY-FLOW-VARIABLE</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

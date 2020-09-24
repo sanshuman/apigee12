@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Spike-Arrest" version="SHA-512:ec95ee8c407acc827886aa41e33e62f59efc5221b169857d1f58fc2e754cbfb845f84375d879cb523688a557f016be0cc26a3ced88e138082c7a88088e6e2e1f"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources/>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:d6a99e7d28b9e8464b558e93b3f2b13b1bd15b81a67775dbde5885d80545cc02de53d71212d076d9742c707886b2f108b0eb33f85954d0d0b9e0e5351265d831"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

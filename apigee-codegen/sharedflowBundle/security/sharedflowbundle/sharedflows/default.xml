@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Name>SET-SECURITY-FLOW-VARIABLE</Name>
+    </Step>
+    <Step>
+        <Name>CALL-APIKEY-SECURITY</Name>
+        <Condition>(xyz.API.Config.Security equals "apikey")</Condition>
+    </Step>
+    <Step>
+        <Name>CALL-OAUTH-v20-SECURITY</Name>
+        <Condition>(xyz.API.Config.Security equals "oauth2")</Condition>
+    </Step>
+    <Step>
+        <Name>CALL-BYPASS-SECURITY</Name>
+        <Condition>(xyz.API.Config.Security equals "bypass")</Condition>
+    </Step>
+    <Step>
+        <Name>INVALID-SECURITY</Name>
+        <Condition>(xyz.Security.Passed equals "false")</Condition>
+    </Step>
+</SharedFlow>

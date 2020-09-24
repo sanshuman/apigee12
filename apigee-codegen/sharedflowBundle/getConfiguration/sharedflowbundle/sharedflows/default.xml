@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Name>GET-KVM-VALUES</Name>
+    </Step>
+    <Step>
+        <Name>MISSING-API-CONFIGURATION</Name>
+        <Condition>(xyz.KVM.API.Config equals null)</Condition>
+    </Step>
+    <Step>
+        <Name>PARSE-KVM-API-JSON</Name>
+    </Step>
+    <Step>
+        <Name>MISSING-ENVIRONMENT-CONFIGURATION</Name>
+        <Condition>(xyz.KVM.Environment.Config equals null)</Condition>
+    </Step>
+    <Step>
+        <Name>PARSE-KVM-ENVIRONMENT-JSON</Name>
+    </Step>
+    <Step>
+        <Name>PRINT-KVM-VARIABLES</Name>
+    </Step>
+</SharedFlow>

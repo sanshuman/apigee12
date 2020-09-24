@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="SET-SECURITY-FLOW-VARIABLE">
+    <DisplayName>SET SECURITY FLOW VARIABLE</DisplayName>
+    <AssignVariable>
+        <Name>xyz.Security.Passed</Name>
+        <Value>false</Value>
+    </AssignVariable>
+</AssignMessage>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowCallout async="false" continueOnError="false" enabled="true" name="CALL-BYPASS-SECURITY">
+    <DisplayName>CALL BYPASS SECURITY</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <SharedFlowBundle>SF_BYPASS_SECURITY_V1</SharedFlowBundle>
+</FlowCallout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="CALCULATE-MESSAGE-SIZE" version="SHA-512:24e76ef9cd80588a1e2365b4bfb73bc271bf0042db99675a01ebb08666342505880db2a2991bd03967ef5222980f909f2aa97d2ed993cf32584c90b8df60220b"/>
+        <VersionInfo resourceName="EXCEEDED-MAXIMUM-MESSAGE-SIZE" version="SHA-512:c12751c9848186d3ad8b0179c513555d227cdab51421f2ec6854519af8b40c08df96ba4d343367bb7638614df35c132d8812580b9e5bc23c34400f34a798b03c"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources>
+        <VersionInfo resourceName="jsc://Calculate_Message_Size.js" version="SHA-512:f4a159a119c7d96e360efa1c6e48afd947ccf5a1f18ec27894cafb6817f8d7b88963936c458e6d718160f65b0b8fada2f5025b785d9fb6e75245939629f201da"/>
+    </Resources>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:482d7c491e24d41b560a37a54f2c1a3643a1739acabfa09fbbb992ddc848f175b97c4505e1d688e08b5594e628ea7bfebaa10b257629102c1b8fc0d88d0a3e93"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

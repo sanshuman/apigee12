@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="5" name="SF_GET_CONFIGURATIONS_V1">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1581022873903</CreatedAt>
+    <CreatedBy>homerj@google.com</CreatedBy>
+    <Description>Shared flow to get KVM values</Description>
+    <DisplayName>SF_GET_CONFIGURATIONS_V1</DisplayName>
+    <LastModifiedAt>1581701508662</LastModifiedAt>
+    <LastModifiedBy>bdraven@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:6f42bb5396a9f811ddc96bbde3fa982c12a953cd012af24700eb2cbf52b13448e3bd3e8aeacb888b81ca58668ac9b027e3a7a7a680aabf988209ea3eaa27f42c</ManifestVersion>
+    <Policies>
+        <Policy>GET-KVM-VALUES</Policy>
+        <Policy>MISSING-API-CONFIGURATION</Policy>
+        <Policy>MISSING-ENVIRONMENT-CONFIGURATION</Policy>
+        <Policy>PARSE-KVM-API-JSON</Policy>
+        <Policy>PARSE-KVM-ENVIRONMENT-JSON</Policy>
+        <Policy>PRINT-KVM-VARIABLES</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://PRINT_KVM_VARIABLES.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

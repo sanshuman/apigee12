@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="PARSE-KVM-ENVIRONMENT-JSON">
+    <DisplayName>PARSE KVM ENVIRONMENT JSON</DisplayName>
+    <JSONPayload>
+        <Variable name="xyz.Environment.Config.Property1">
+            <JSONPath>Property1</JSONPath>
+        </Variable>
+        <Variable name="xyz.Environment.Config.Property2">
+            <JSONPath>Property2</JSONPath>
+        </Variable>
+    </JSONPayload>
+    <Source>xyz.KVM.Environment.Config</Source>
+</ExtractVariables>

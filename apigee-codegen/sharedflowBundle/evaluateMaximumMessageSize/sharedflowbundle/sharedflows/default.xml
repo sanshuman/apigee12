@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Name>CALCULATE-MESSAGE-SIZE</Name>
+    </Step>
+    <Step>
+        <Name>EXCEEDED-MAXIMUM-MESSAGE-SIZE</Name>
+        <Condition>xyz.MessageSize &gt; xyz.API.Config.MaximumMessageSize</Condition>
+    </Step>
+</SharedFlow>

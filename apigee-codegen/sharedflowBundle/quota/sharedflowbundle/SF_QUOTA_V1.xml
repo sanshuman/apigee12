@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="1" name="SF_QUOTA_V1">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1581447232557</CreatedAt>
+    <CreatedBy>homerj@google.com</CreatedBy>
+    <Description>Enforce the Quota from API Product</Description>
+    <DisplayName>SF_QUOTA_V1</DisplayName>
+    <LastModifiedAt>1581448424451</LastModifiedAt>
+    <LastModifiedBy>homerj@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:d160aa846b74bca1366a7851416ab0e0bbfb485398716a7050f0432ab18ecdb84c8aa9864215b44f1e8668725e419a2452e88a419ee55186aedae670394489b1</ManifestVersion>
+    <Policies>
+        <Policy>QUOTA</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

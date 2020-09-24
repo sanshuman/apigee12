@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="PARSE-KVM-API-JSON">
+    <DisplayName>PARSE KVM API JSON</DisplayName>
+    <JSONPayload>
+        <Variable name="xyz.API.Config.Base">
+            <JSONPath>Base</JSONPath>
+        </Variable>
+        <Variable name="xyz.API.Config.MaximumMessageSize">
+            <JSONPath>MaximumMessageSize</JSONPath>
+        </Variable>
+        <Variable name="xyz.API.Config.Security">
+            <JSONPath>Security</JSONPath>
+        </Variable>
+        <Variable name="xyz.API.Config.Spike">
+            <JSONPath>Spike</JSONPath>
+        </Variable>
+        <Variable name="xyz.API.Config.ScrubCreds">
+            <JSONPath>ScrubCreds</JSONPath>
+        </Variable>
+        <Variable name="xyz.API.Config.SpikeEnabled">
+            <JSONPath>SpikeEnabled</JSONPath>
+        </Variable>
+        <Variable name="xyz.API.Config.QuotaEnabled">
+            <JSONPath>QuotaEnabled</JSONPath>
+        </Variable>
+    </JSONPayload>
+    <Source>xyz.KVM.API.Config</Source>
+</ExtractVariables>

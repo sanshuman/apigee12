@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="GET-KVM-VALUES" version="SHA-512:4cce7d6f0eca4267f6b3e62683dbfec369ff14137e6d5f030b7ea62fc8cae2a276ab92aef19149c7e33006be15e627854e556b179a34f4fbcfb7e278fdaa432f"/>
+        <VersionInfo resourceName="MISSING-API-CONFIGURATION" version="SHA-512:2b8c3a5394e6ec224075864cade679003eae30d1e872d50d44e3c9feeb663b76c869238eef9a08fb31a9653db5a07e03add47b30ba300bc6ad8acda87ec97e6f"/>
+        <VersionInfo resourceName="MISSING-ENVIRONMENT-CONFIGURATION" version="SHA-512:018207a6cb1d2b35ed6a33746103913e1cc16b5047ea55c4424a20c49e800ce9e92f78adbaf8b1a58e1042195595bc0d2aea44dff5a1dde4adc36fb08918d449"/>
+        <VersionInfo resourceName="PARSE-KVM-API-JSON" version="SHA-512:e9467bf2dd39e48d530762595a277fa349d3271a39074e3a303bc2fef4bbc864b91a227cbde8c72882df0abdb6fea706483a98de42a13300345cd96a9c5a62f7"/>
+        <VersionInfo resourceName="PARSE-KVM-ENVIRONMENT-JSON" version="SHA-512:1ca3e1a61102fe5eb73808457689dba59d5a968e880f2cd1f7f27614a81179732656eefa96e6e9212f07a2d7499d3d040f34e8f0fd93f8a719c5f371635b7891"/>
+        <VersionInfo resourceName="PRINT-KVM-VARIABLES" version="SHA-512:6602ba61c4a3c68386aba1b3c65d1c40e32ebf06bde67156cf83ab2e06078fe526616c98a17bec8c440fdd0eb52bbc73e1b931ca8f61e7041cbe1198c532eb51"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources>
+        <VersionInfo resourceName="jsc://PRINT_KVM_VARIABLES.js" version="SHA-512:c3225e70c628e2a01eab9fa191621b019b911e674020fd78260a24eb74997098aca82f66f2bd97f9f71a4fc4773cdc2537e09a37d9d2677164ed9bed9dfc2a61"/>
+    </Resources>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:6b6e0f156cb0c7c65f7d6678a59d8bf2c28c27e8af5738857fc44ee823c63620b49a838d798a9a69f4f77bb382126c04620f874ffe7324f281cc7f07478ef4b1"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>
